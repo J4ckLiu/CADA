@@ -1,4 +1,6 @@
-# This repository contains the official implementation of "C-Adapter: Adapting Deep Classifiers for Efficient Conformal Prediction Sets".
+# C-Adapter: Adapting Deep Classifiers for Efficient Conformal Prediction Sets
+
+This repository contains the official implementation of "C-Adapter: Adapting Deep Classifiers for Efficient Conformal Prediction Sets".
 
 ## How to Install
 
