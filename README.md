@@ -1,10 +1,6 @@
-# CADA
+# This repository contains the official implementation of "C-Adapter: Adapting Deep Classifiers for Efficient Conformal Prediction Sets".
 
-## Introduction
-
-This repository contains the official implementation of "C-Adapter: Adapting Deep Classifiers for Efficient Conformal Prediction Sets".
-
-## Environment
+## How to Install
 
 ```bash
 git clone https://github.com/J4ckLiu/CADA.git
@@ -14,26 +10,16 @@ conda activate cada
 pip install -r requirements.txt
 ```
 
-## Usage
+## How to Run
 
 ```bash
 cd examples
-```
-
-### Tuning
-
-```bash
-python tune_cifar.py --seed 42 --model densenet121 
-```
-
-### Testing
-
-```bash
+python tune_cifar.py --seed 42 --model densenet121
 python test_cifar.py --seed 42 --model densenet121 --alpha 0.01 --conformal thr
 ```
 
 
-
+## Citation
 If you find this work useful, please cite:
 
 ```bibtex
@@ -45,8 +31,3 @@ If you find this work useful, please cite:
 }
 ```
 
-
-
----
-
-是否希望我帮你再改成**中文版本**（保持同样简洁度、跟 OCS-ARC 一样语气）？
