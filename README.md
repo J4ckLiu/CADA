@@ -7,9 +7,8 @@ This repository contains the official implementation of "C-Adapter: Adapting Dee
 ```bash
 git clone https://github.com/J4ckLiu/CADA.git
 cd CADA
-conda create -n cada python=3.9
+conda env create -f environment.yml
 conda activate cada
-pip install -r requirements.txt
 ```
 
 ## How to Run
